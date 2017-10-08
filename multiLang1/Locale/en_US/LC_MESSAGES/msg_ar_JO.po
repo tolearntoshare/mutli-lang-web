@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A\n"
 "POT-Creation-Date: 2017-10-07 19:25+0300\n"
-"PO-Revision-Date: 2017-10-07 19:26+0300\n"
+"PO-Revision-Date: 2017-10-07 19:32+0300\n"
 "Last-Translator: \n"
 "Language-Team: a\n"
 "Language: ar_JO\n"
@@ -47,7 +47,7 @@ msgstr "زعاااااااااااااااااااااااااااااابر ل�
 
 #: WORK_FINE.php:69
 msgid "<div class='alert'>Hellloooo</div>"
-msgstr "<div>    هلاااا  والله    </div>"
+msgstr "<div class='alert'>شكرا مليوووون</div>"
 
 #, fuzzy
 #~| msgid "ayman"
