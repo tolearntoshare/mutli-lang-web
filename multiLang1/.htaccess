@@ -1,0 +1,24 @@
+RewriteEngine on
+RewriteRule ^ayman$ apple.php
+
+
+
+# this is https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04
+#RewriteRule pattern substitution [flags]
+
+
+#lang/a/ --> ok 
+#RewriteRule ^lang/([A-Za-z0-9-]+)/?$ work_fine.php [NC]
+# [lang/ar_JO/] or [lang/ar_JO]
+#RewriteRule ^$ work_fine.php
+RewriteRule ^(lang)$ work_fine.php?lang=en_US
+RewriteRule ^(lang/ar_JO)$ work_fine.php?lang=ar_JO [NC]
+RewriteRule ^(lang/en_US)$ work_fine.php?lang=en_US [NC]
+RewriteRule ^lang/([A-Za-z0-9_-]+)/?$ work_fine.php?lang=$1 [NC]
+
+RewriteRule ^zpage$ zpage.php [NC]
+RewriteRule ^zpagexx$ zpage.php [NC]
+#RewriteRule ^(zpage/ar_JO)$ zpage.php?lang=ar_JO [NC]
+#RewriteRule ^(zpage/nl_NL)$ zpage.php?lang=nl_NL [NC]
+
+

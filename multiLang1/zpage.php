@@ -22,9 +22,9 @@ if (isset($_GET['lang']) ) {
     $language = 'en_US';
 }
 echo ""
-        . "<a href='lang/en_US'>EN</a> |"
-        . "<a href='lang/ar_JO'>AR</a> |"
-        . "<a href='lang/nl_NL'>NL</a> |";
+        . "<a href='?lang=en_US'>EN</a> |"
+        . "<a href='?lang=ar_Jo'>AR</a> |"
+        . "<a href='?lang=nl_NL'>NL</a> |";
 
 
 $locale = $language;
